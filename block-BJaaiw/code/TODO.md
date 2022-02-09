@@ -1,4 +1,4 @@
-# Create a 2D breakout game
+# Create a 2D breakout game.
 
 - Follow the step by step tutorial to create a 2D breakout game.
 - Link for tutorial is given below
