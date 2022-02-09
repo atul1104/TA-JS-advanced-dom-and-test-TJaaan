@@ -1,4 +1,4 @@
-## Create a drag and drop todo
+## Create a drag and drop todo.
 
 - Create a drag and drop list
 - You can add new item to the list
