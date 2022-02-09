@@ -17,15 +17,15 @@ function handleEdit(event, info, id, label) {
   let elm = event.target;
   let input = document.createElement("input");
   input.value = info;
-  input.addEventListener("keyup", (event) => {
-    if (event.keyCode === 13) {
-      let updatedValue = event.target.value;
+  input.addEventListener("keyup", (e) => {
+    if (e.keyCode === 13) {
+      let updatedValue = e.target.value;
       cardsData[id][label] = updatedValue;
       createUI();
     }
   });
-  input.addEventListener("blur", (event) => {
-    let updatedValue = event.target.value;
+  input.addEventListener("blur", (e) => {
+    let updatedValue = e.target.value;
     cardsData[id][label] = updatedValue;
     createUI();
   });
